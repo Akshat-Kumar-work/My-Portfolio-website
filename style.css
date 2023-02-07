@@ -526,6 +526,7 @@ line-height: 3rem;
     width: 50%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .skill-container-right{
@@ -776,10 +777,10 @@ width: 25%;
     .project-sub-heading {
       width: 100%;
     }
-    #project2 {
+    #card-02 {
         margin-left: 0;
       }
-      #project4 {
+      #card-04 {
         margin-left: 0;
       }
     .project-skill-container {
@@ -808,14 +809,15 @@ width: 25%;
         flex-direction: column;
     }
     .skill-container-left{
-        width: 25%;
-
         
-    }
-    .skill-heading{
-        width: 50%;
+       font-size: smaller;
+        width: 25%;
     }
   
+  .skill-container-right{
+   gap: 1rem;
+    flex-direction: column;
+  }
     .hero-sec-heading{
         font-size: 25px;
     }
@@ -829,6 +831,7 @@ width: 25%;
     display: flex;
     align-self: flex-start;
    }
+   
   }
 
   #myimg{
