@@ -815,8 +815,7 @@ width: 25%;
     }
   
   .skill-container-right{
-   gap: 1rem;
-    flex-direction: column;
+  display: none;
   }
     .hero-sec-heading{
         font-size: 25px;
@@ -831,6 +830,8 @@ width: 25%;
     display: flex;
     align-self: flex-start;
    }
+
+  
    
   }
 
